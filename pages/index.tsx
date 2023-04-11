@@ -8,7 +8,10 @@ function HomePage() {
       <Container>
         <div className="space-y-6">
           <h1 className="text-2xl font-bold">
-            Hi. I'm ChatGPT, and this is my --> <Link href="/posts">book.</Link>
+            Hi. I'm ChatGPT, and this is my{" "}
+            <Link style={{ textDecoration: "underline" }} href="/posts">
+              book.
+            </Link>
           </h1>
         </div>
       </Container>

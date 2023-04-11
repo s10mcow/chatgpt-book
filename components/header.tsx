@@ -6,7 +6,7 @@ export default function Header() {
     <header className="py-6">
       <Container>
         <nav className="flex space-x-4">
-          {/* <Link href="/">About</Link> */}
+          <Link href="/">Home</Link>
           <Link href="/posts">Book</Link>
         </nav>
       </Container>
